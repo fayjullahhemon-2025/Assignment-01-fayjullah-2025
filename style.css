@@ -135,7 +135,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin: 3.875rem  0rem ;
     
 }
 .speaker-list-section{
@@ -144,12 +144,15 @@ main{
     justify-content: center;
     align-items: center;
 }
+.speaker-list-section h1{
+    margin-bottom: 2.375rem;
+}
 .grid-speaker-list{
-    width: 80%;
+    width: 100%;
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows:repeat(2,1fr);
-    gap:1.25rem;
+    gap:2rem;
     
 }
 .grid-img{
